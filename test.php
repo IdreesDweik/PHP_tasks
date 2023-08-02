@@ -42,12 +42,14 @@
     //     }
     }
 
-    // $userno = new User();
-    // $userno->name = "ahmad";
-    // $userno->email = "fake@gmail.com";
-    // $userno->password = "hIjs12%";
+    $userno = new User();
+    $userno->name = "ahmad";
 
-    // var_dump($userno);
+    //$userno->getName($userno);
+    $userno->email = "fake@gmail.com";
+    $userno->password = "hIjs12%";
+
+    var_dump($userno);
 
     // Instantiate a new user
     //$user1 = new User('Brad', 'brad@gmail.com', '123456');
@@ -57,7 +59,7 @@
     // Add a value to a property
     // $user1->name = 'Brad';
 
-    var_dump($user1);
+    //var_dump($user1);
         // echo $user1->name;
 
         /* ----------- Inheritence ---------- */
