@@ -8,8 +8,17 @@
 <body>
     
     <?php
-
         
+        $number = 27;
+
+        switch(true) {
+            case $number < 20:
+                echo 'It\'s Winter!';
+                break;
+        
+            default:
+                echo 'It\'s Summer!';
+        }
 
     ?>
 

@@ -16,9 +16,16 @@
         rsort($temperature);
         $highest  = array_slice($temperature, 0, 5);
 
-        echo "Average Temperature is: $average";
-        echo "List of seven lowest temperatures: ";
-        pr
+        echo "Average Temperature is: $average <br>";
+        echo "List of five lowest temperatures: ";
+        foreach ($lowest as $x) {
+            echo "$x, ";
+        }
+        echo "<br>";
+        echo "List of five highest temperatures: ";
+        foreach ($highest as $y) {
+            echo "$y, ";
+        }
 
 
     ?>
