@@ -9,7 +9,16 @@
     
     <?php
 
-        
+        $n = 30;
+        $i = 0;
+        $total = 0;
+
+        while($i <= $n) {
+          $total += $i;
+          $i++;
+        }
+
+        echo "Total as a $total";
 
     ?>
 
