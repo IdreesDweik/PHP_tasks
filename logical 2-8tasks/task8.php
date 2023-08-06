@@ -9,7 +9,21 @@
     
     <?php
         
+        $units = 75;
 
+        if ($units <= 50){
+            $total = $units * 2.5;
+            echo $total;
+        } else if($units >= 51 && $units <= 150){
+            $total = $units * 5;
+            echo $total;
+        } else if($units >= 151 && $units <= 250){
+            $total = $units * 6.2;
+            echo $total;
+        } else if($units >= 251){
+            $total = $units * 7.5;
+            echo $total;
+        }
 
     ?>
 
