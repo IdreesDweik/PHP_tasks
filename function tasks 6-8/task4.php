@@ -9,7 +9,18 @@
     
         <?php
 
-            
+            $x = 10;
+            $y = 5 ;
+
+            function swap (&$x , &$y){
+                $temp = $x;
+                $x = $y;
+                $y = $temp;
+            }
+            echo "x = $x | y = $y";
+            echo "<br>";
+            swap( $x, $y );
+            echo "x = $x | y = $y";
 
         ?>
 

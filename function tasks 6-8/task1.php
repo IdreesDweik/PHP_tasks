@@ -9,8 +9,16 @@
     
         <?php
 
-            
+            $n = 3;
 
+            function isPrime($number){
+                for ($i = 2; $i <= sqrt($number); $i++){ 
+                    if ($number % $i == 0) 
+                        echo "$number is not a prime number "; 
+                }
+                echo "$number is a prime number";
+            }
+            isPrime($n);
         ?>
 
 </body>

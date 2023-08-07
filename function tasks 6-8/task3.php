@@ -9,7 +9,15 @@
     
         <?php
 
-            
+            $str2 = "remove" ;
+            function islower($str){
+                if (ctype_lower($str))
+                 echo "Your string is okey";
+                    else 
+                        echo "its not okey";
+            }
+
+            echo islower($str2);
 
         ?>
 

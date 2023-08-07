@@ -9,7 +9,13 @@
     
         <?php
 
-            
+        function IsPalindrome($str) {
+            if (strrev($str) == $str)
+                echo "Yes it is a palindrome ";
+            else
+                echo "no it is not a palindrome ";
+        }
+        IsPalindrome("evacaniseebeesinacave");
 
         ?>
 
