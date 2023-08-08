@@ -9,7 +9,17 @@
     
         <?php
 
-            
+        class greeting{
+            public $msg2 = "Hello All, I am ";
+
+            function greet($name)
+            {
+                return " $this->msg2.$name";
+            }
+        }
+
+        $newPerson = new greeting();
+        echo $newPerson->greet("scott");
 
         ?>
 

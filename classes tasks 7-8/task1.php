@@ -9,7 +9,13 @@
     
         <?php
 
-            
+        class outputMsg{
+            public function __construct()
+            {
+                echo "MyClass class has initialized !";
+            }
+        }
+        $display = new outputMsg;
 
         ?>
 
